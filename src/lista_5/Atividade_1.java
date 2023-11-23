@@ -10,11 +10,12 @@ public class Atividade_1 {
 		int n;
 		System.out.println("Informe um número: ");
 		n = teclado.nextInt();
-// declarando um laço
+// declarando um laço para receber somente uma entrada positiva
 		while (n <= 0) {
 			System.out.println("Informe um número POSITIVO: ");
 			n = teclado.nextInt();
 		}
+// calculando o dobro
 		int cont = n;
 		int num, inic = 1;
 		while (inic <= cont) {
